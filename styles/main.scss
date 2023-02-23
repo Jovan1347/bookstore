@@ -1,0 +1,16 @@
+@import "./colors";
+@import "./header";
+@import "./content";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Rubik+Glitch&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: $body-background-color;
+    overflow-x: hidden;
+}
